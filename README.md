@@ -17,6 +17,6 @@ A changelog for the course can be found [here](https://docs.google.com/a/knowlab
 
 TeamOverflow
 ========
-name	id
+name	[id]
 
-taehun	tk0221
+taehun	[tk0221]
