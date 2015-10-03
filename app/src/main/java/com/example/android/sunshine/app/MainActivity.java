@@ -57,6 +57,18 @@ public class MainActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+
+            String[] forecastArray = {
+                    "Today - Sunny - 88/63",
+                    "Tomorrow - Snow - 1/1",
+                    "Weds - Cloudy - 99/98",
+                    "Thurs - Asteroids - 75/65",
+                    "Fri - Heavy Rain - 65/56",
+                    "Sat - Secret - 1/100",
+                    "Sun - Sunny - 100/100"
+            };
+
+
             return rootView;
         }
     }
